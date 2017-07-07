@@ -1,0 +1,19 @@
+<view class="container">
+  <!--<view class="title">会员卡详情</view>-->
+  <view class="item">
+    <text class="item-left">特权说明</text>
+    <text class="item-right">{{detail.des}}</text>
+  </view>
+  <view class="item">
+    <text class="item-left">有效时期</text>
+    <text class="item-right">{{detail.valid_time}}</text>
+  </view>
+  <view class="item">
+    <text class="item-left">可用时段</text>
+    <text class="item-right">{{detail.use_date}}</text>
+  </view>
+  <view class="item">
+    <text class="item-left">使用须知</text>
+    <text class="item-right">{{detail.tips}}</text>
+  </view>
+</view>

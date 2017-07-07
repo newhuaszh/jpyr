@@ -1,0 +1,67 @@
+.avatar-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20rpx;
+  margin-bottom: 40rpx;
+}
+
+.avatar {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+
+/*input {
+  height: 40px;
+  margin-left: 30rpx;
+}
+
+.title-view {
+  background-color: RGB(248, 248, 248);
+  height: 35px;
+}
+
+.input-view {
+  border-bottom: 1px solid RGB(216, 216, 216);
+  border-top: 1px solid RGB(216, 216, 216);
+}
+
+.title-view text {
+  margin-left: 30rpx;
+  font-size: 14px;
+  line-height: 45px;
+}
+
+.birth {
+  margin-left: 30rpx;
+  color: RGB(131, 131, 131);
+  line-height: 40px;
+}
+
+picker .input-view {
+  height: 40PX;
+}*/
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title-view {
+  width: 70px;
+}
+
+.item {
+  border-bottom: 1px solid RGB(216, 216, 216);
+}
+
+.input-view input {
+  height: 40px;
+}
+
+.birth {
+  color: RGB(131, 131, 131);
+  line-height: 40px;
+}

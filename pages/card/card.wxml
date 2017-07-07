@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="all-view">
+  <view class="container">
+    <image class="card" src="/images/card.png"></image>
+    <view class="activate-btn">激活会员卡</view>
+    <view class="activat-des">激活立享9.50折</view>
+  </view>
+  <view class="items">
+    <view class="item" catchtap="bindCardTap">
+      <image class="item-type" src="/images/detail.png"></image>
+      <text class="item-title">会员卡详情</text>
+      <image class="item-right" src="/images/arrow_down.png"></image>
+    </view>
+    <view class="item" catchtap="bindLocationTap">
+      <image class="item-type" src="/images/location.png"></image>
+      <text class="item-title">{{location}}</text>
+      <image class="item-right" src="/images/arrow_down.png"></image>
+    </view>
+    <view class="item" catchtap="bindTelTap">
+      <image class="item-type" src="/images/tel.png"></image>
+      <text class="item-title">{{phone_num}}</text>
+      <image class="item-right" src="/images/arrow_down.png"></image>
+    </view>
+  </view>
+</view>

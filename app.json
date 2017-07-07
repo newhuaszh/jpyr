@@ -1,0 +1,15 @@
+{
+  "pages":[
+    
+    "pages/card/card",
+    "pages/card/login/login",
+    "pages/card/detail/detail"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "积派羊绒",
+    "navigationBarTextStyle":"black"
+  }
+}

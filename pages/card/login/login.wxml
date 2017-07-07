@@ -1,0 +1,85 @@
+<!--<form bindsubmit="formSubmit">
+  <view class="container">
+    <view class="avatar-view">
+      <image class="avatar" src="{{user_info.avatarUrl}}"></image>
+    </view>
+    <view class="item">
+      <view class="title-view">
+        <text>姓名</text>
+      </view>
+      <view class="input-view">
+        <input name="name" type="text" placeholder="姓名" />
+      </view>
+    </view>
+    <view class="item">
+      <view class="title-view">
+        <text>手机</text>
+      </view>
+      <view class="input-view">
+        <input name="phone" type="number" placeholder="11位手机号" />
+      </view>
+    </view>
+    <view class="item">
+      <view class="title-view">
+        <text>生日</text>
+      </view>
+      <picker mode="date" value="1988-09-02">
+        <view class="input-view">
+          <text class="birth">公历生日</text>
+        </view>
+      </picker>
+    </view>
+    <view class="item">
+      <view class="title-view">
+        <text>授权码</text>
+      </view>
+      <view class="input-view">
+        <input name="code" type="number" placeholder="4位授权码" />
+      </view>
+    </view>
+  </view>
+</form>-->
+
+<form bindsubmit="formSubmit">
+  <view class="container">
+    <view class="avatar-view">
+      <image class="avatar" src="{{user_info.avatarUrl}}"></image>
+    </view>
+    <view class="item">
+      <view class="title-view">
+        <text>姓名</text>
+      </view>
+      <view class="input-view">
+        <input name="name" type="text" placeholder="姓名" />
+      </view>
+    </view>
+    <view class="item">
+      <view class="title-view">
+        <text>手机</text>
+      </view>
+      <view class="input-view">
+        <input name="phone" type="number" placeholder="11位手机号" />
+      </view>
+    </view>
+    <view class="item">
+      <view class="title-view">
+        <text>生日</text>
+      </view>
+      <!--<input name="birth" type="text" placeholder="请选择生日" />-->
+      <picker mode="date" value="1988-09-02">
+        <!--<text>请输入公历生日</text>-->
+        <view class="input-view">
+          <text class="birth">公历生日</text>
+        </view>
+      </picker>
+    </view>
+    <view class="item">
+      <view class="title-view">
+        <text>授权码</text>
+      </view>
+      <view class="input-view">
+        <input name="code" type="number" placeholder="4位授权码" />
+      </view>
+    </view>
+  </view>
+</form>

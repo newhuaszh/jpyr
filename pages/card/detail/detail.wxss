@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 0;
+}
+
+.title {
+  width: 100%;
+  height: 30px;
+  margin-left: 40px;
+
+  font-size: 20px;
+  font-weight: 700;
+  border-bottom: 1px solid RGB(238,238,238);
+}
+
+.item {
+  flex-direction: row;
+  align-items: center;
+
+  width: 100%;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.item-left {
+  color: RGB(145,145,145);
+  font-size: 34rpx;
+}
+
+.item-right {
+  margin-left: 40rpx;
+  display: inline-flex;
+  font-size: 34rpx;
+}
